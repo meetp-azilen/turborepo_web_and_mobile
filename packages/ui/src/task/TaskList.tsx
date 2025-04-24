@@ -10,7 +10,7 @@ import {
   Alert,
   Platform,
 } from "react-native";
-import { Button } from "./button";
+import { Button } from "../button";
 
 // --- Updated Types and Constants ---
 type Task = {

@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import { TaskList } from "@repo/ui/TaskList"; // Import shared component using alias
+import { TaskList } from "@repo/ui/task/TaskList"; // Import shared component using alias
 
 export default function TasksScreen() {
   return (

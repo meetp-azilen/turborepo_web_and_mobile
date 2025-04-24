@@ -1,4 +1,4 @@
-import { TaskList } from "@repo/ui/TaskList"; // Import the shared component
+import { TaskList } from "@repo/ui/task/TaskList"; // Import the shared component
 
 export default function TasksPage() {
   return (
