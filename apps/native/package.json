@@ -11,6 +11,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-picker/picker": "^2.11.0",
     "@repo/ui": "*",
     "expo": "~51.0.39",
     "expo-constants": "~16.0.2",
