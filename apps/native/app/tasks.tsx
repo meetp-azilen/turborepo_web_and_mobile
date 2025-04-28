@@ -1,12 +1,14 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Platform } from "react-native";
 import { TaskList } from "@repo/ui/task/TaskList"; // Import shared component using alias
 
 export default function TasksScreen() {
   return (
     <View style={styles.container}>
       {/* Optionally add a screen title */}
-      {/* <Text style={styles.title}>Tasks</Text> */}
+      {Platform.OS === "web" && (
+        <Text style={styles.title}>Native Web Task Management</Text>
+      )}
       <TaskList />
     </View>
   );
